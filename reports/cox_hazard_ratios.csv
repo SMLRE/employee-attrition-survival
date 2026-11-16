@@ -1,0 +1,9 @@
+covariate,hazard_ratio,ci_low,ci_high,p
+low_rating,1.293,1.089,1.537,0.003
+recent_mgr_change,1.019,0.837,1.242,0.85
+months_since_raise,1.018,1.01,1.026,0.0
+age_years,1.0,0.985,1.016,0.959
+tenure_years,0.987,0.967,1.009,0.246
+grade,0.973,0.903,1.048,0.469
+underpaid_high_performer,0.94,0.767,1.151,0.55
+pay_vs_grade_median,0.668,0.629,0.711,0.0

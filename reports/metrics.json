@@ -1,0 +1,81 @@
+{
+  "raw_exit_reasons": {
+    "ACTIVE": 3438,
+    "RESIGNATION": 2005,
+    "TERMINATION": 951,
+    "WITHDRAWAL_OF_SERVICE": 508,
+    "RETIREMENT": 357,
+    "DUPLICATE_RECORD": 110,
+    "DEATH": 46
+  },
+  "train_landmark": "2024-06-30",
+  "oot_landmark": "2025-06-30",
+  "employees_train": 3414,
+  "employees_oot": 3422,
+  "attrition_24m_train": 0.1968,
+  "cox_concordance_train": 0.6878,
+  "cox_concordance_oot": 0.712,
+  "cox_hazard_ratios": [
+    {
+      "feature": "low_rating",
+      "hazard_ratio": 1.293,
+      "ci_low": 1.089,
+      "ci_high": 1.537,
+      "p": 0.003
+    },
+    {
+      "feature": "recent_mgr_change",
+      "hazard_ratio": 1.019,
+      "ci_low": 0.837,
+      "ci_high": 1.242,
+      "p": 0.85
+    },
+    {
+      "feature": "months_since_raise",
+      "hazard_ratio": 1.018,
+      "ci_low": 1.01,
+      "ci_high": 1.026,
+      "p": 0.0
+    },
+    {
+      "feature": "age_years",
+      "hazard_ratio": 1.0,
+      "ci_low": 0.985,
+      "ci_high": 1.016,
+      "p": 0.959
+    },
+    {
+      "feature": "tenure_years",
+      "hazard_ratio": 0.987,
+      "ci_low": 0.967,
+      "ci_high": 1.009,
+      "p": 0.246
+    },
+    {
+      "feature": "grade",
+      "hazard_ratio": 0.973,
+      "ci_low": 0.903,
+      "ci_high": 1.048,
+      "p": 0.469
+    },
+    {
+      "feature": "underpaid_high_performer",
+      "hazard_ratio": 0.94,
+      "ci_low": 0.767,
+      "ci_high": 1.151,
+      "p": 0.55
+    },
+    {
+      "feature": "pay_vs_grade_median",
+      "hazard_ratio": 0.668,
+      "ci_low": 0.629,
+      "ci_high": 0.711,
+      "p": 0.0
+    }
+  ],
+  "ph_test_min_p": 0.0064,
+  "triage_auc_oot": 0.7315,
+  "triage_precision_at_50": 0.28,
+  "triage_base_rate_6m": 0.0555,
+  "triage_top_decile_capture": 0.2526
+}
