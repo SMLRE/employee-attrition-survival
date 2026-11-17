@@ -1,5 +1,7 @@
 # Employee Attrition: Survival-First Risk Model
 
+[![CI](https://github.com/SMLRE/employee-attrition-survival/actions/workflows/ci.yml/badge.svg)](https://github.com/SMLRE/employee-attrition-survival/actions/workflows/ci.yml)
+
 Answers two HR questions:
 1. **What multiplies the risk of leaving, and by how much?** Answered by a **Cox proportional hazards** model (primary).
 2. **Who should HR talk to this month?** Answered by an **XGBoost triage list** with SHAP reasons (secondary).
@@ -68,4 +70,4 @@ notebooks/walkthrough.ipynb
 
 ## Author
 
-**Oluwasemilore Sadare**, Senior Data Scientist · [LinkedIn](https://www.linkedin.com/in/oluwasemilore-sadare) · [GitHub](https://github.com/SMLRE)
+**Oluwasemilore Sadare**, Data Scientist · [LinkedIn](https://www.linkedin.com/in/oluwasemilore-sadare) · [GitHub](https://github.com/SMLRE)
